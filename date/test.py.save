@@ -1,0 +1,45 @@
+'''
+x=int(input("Enter the number :"))
+y=int(input("Enter the number :"))
+
+if x!=y:
+	if x>y:
+		print("x is greater")
+	elif x<y:
+		print("y is greater")
+else:
+	print("both a equal")
+'''
+'''
+amount=int(input('Enter amount :'))
+day=input("enter day :")
+
+if day=="sunday":
+	if amount>=5000:
+		discount=(amount*10)/100
+		amount=amount-discount
+		print("after 10% the amount will be :",amount)
+	else:
+		print("amount must be more than 5000")
+else:
+	print("please visit on sunday")
+'''
+'''
+x=([1,2,3],[4,5,6],[7,8,9])
+
+for i in x:
+	for j in x:
+		print(j[0])
+'''
+'''
+list=([1,2,3],[4,5,6],[7,2,9])
+for l in list:
+	print(l)
+list.append(4)
+print("list after appending element: ",list)
+'''
+#program  for matrix
+x=[[2,3,4],
+[7,8,9],[5,6,4]]
+y=[[3,1,4],[4,5,5],[7,8,9]]
+
