@@ -1,4 +1,4 @@
-'''prj_name = input("Enter project name: ")
+prj_name = input("Enter project name: ")
 print(f"Let's start working {prj_name}")
 who_is =  input(f"Who is working on {prj_name}? ")
 print(f"Welcome to {prj_name} {who_is}")
@@ -19,32 +19,5 @@ if (how_many >= 5 and how_many<=10):
 elif (how_many>=10 and how_many <=50):
 	print("It's a mid sized project")
 else:
-	print("It's a big big project...")'''
-
-'''
-x = int(input("enter the number: "))
-y = int(input("enter the number: "))
-
-if x!=y:
-	if x>y:
-		print("x is greater")
-	else:
-		print("y is greaterr")
-else:
-	print("both are equal")
-'''
-'''
-num = float(input("Enter a number: "))
-if num >= 0:
-    if num == 0:
-        print("Zero")
-    else:
-        print("Positive number")
-else:
-    print("Negative number")
-
-
-
-x = '34$'
-y = x.rstrip('$')
-int(y)
+	print("It's a big big project...")
+	
